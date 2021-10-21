@@ -5,7 +5,12 @@ import org.testng.annotations.Test;
 
 public class ApplicationTest {
     @Test
-    public void Test01() {
-        Assert.assertTrue(true);
+    public void TestMain() {
+        Main.main(new String[0]);
+    }
+
+    @Test
+    public void TestUser() {
+        User u = new User(2);
     }
 }
