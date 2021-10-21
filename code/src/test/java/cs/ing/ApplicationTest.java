@@ -12,5 +12,6 @@ public class ApplicationTest {
     @Test
     public void TestUser() {
         User u = new User(2);
+        Assert.assertEquals(u.getId(), 2);
     }
 }
