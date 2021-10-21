@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-21T12:27:56 COT" name="cs.ing.ApplicationTest" finished-at="2021-10-21T12:27:56 COT" duration-ms="83">
+  <suite started-at="2021-10-21T13:56:30 COT" name="Command line suite" finished-at="2021-10-21T13:56:31 COT" duration-ms="193">
     <groups>
     </groups>
-    <test started-at="2021-10-21T12:27:56 COT" name="Command line test" finished-at="2021-10-21T12:27:56 COT" duration-ms="83">
+    <test started-at="2021-10-21T13:56:30 COT" name="Command line test" finished-at="2021-10-21T13:56:31 COT" duration-ms="193">
       <class name="cs.ing.ApplicationTest">
-        <test-method signature="TestMain()[pri:0, instance:cs.ing.ApplicationTest@63440df3]" started-at="2021-10-21T12:27:56 COT" name="TestMain" finished-at="2021-10-21T12:27:56 COT" duration-ms="49" status="PASS">
+        <test-method signature="TestMain()[pri:0, instance:cs.ing.ApplicationTest@38af9828]" started-at="2021-10-21T13:56:31 COT" name="TestMain" finished-at="2021-10-21T13:56:31 COT" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestMain -->
-        <test-method signature="TestUser()[pri:0, instance:cs.ing.ApplicationTest@63440df3]" started-at="2021-10-21T12:27:56 COT" name="TestUser" finished-at="2021-10-21T12:27:56 COT" duration-ms="2" status="PASS">
+      </class> <!-- cs.ing.ApplicationTest -->
+      <class name="cs.ing.UserTest">
+        <test-method signature="TestConstructor()[pri:0, instance:cs.ing.UserTest@62656be4]" started-at="2021-10-21T13:56:31 COT" name="TestConstructor" finished-at="2021-10-21T13:56:31 COT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestUser -->
-      </class> <!-- cs.ing.ApplicationTest -->
+        </test-method> <!-- TestConstructor -->
+        <test-method signature="TestSetters()[pri:0, instance:cs.ing.UserTest@62656be4]" started-at="2021-10-21T13:56:31 COT" name="TestSetters" finished-at="2021-10-21T13:56:31 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetters -->
+      </class> <!-- cs.ing.UserTest -->
+      <class name="cs.ing.MainTest">
+        <test-method signature="TestMain()[pri:0, instance:cs.ing.MainTest@376a0d86]" started-at="2021-10-21T13:56:31 COT" name="TestMain" finished-at="2021-10-21T13:56:31 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMain -->
+      </class> <!-- cs.ing.MainTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- cs.ing.ApplicationTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>
