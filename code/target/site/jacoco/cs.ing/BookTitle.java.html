@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>BookTitle.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">practica-calificada-1-luis-carbajal-c</a> &gt; <a href="index.source.html" class="el_package">cs.ing</a> &gt; <span class="el_source">BookTitle.java</span></div><h1>BookTitle.java</h1><pre class="source lang-java linenums">package cs.ing;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BookTitle {
+    private final String title;
+    private final Integer year;
+    private final Author author;
+    private boolean newTitle;
+    private List&lt;BookCopy&gt; copies;
+
+<span class="nc" id="L13">    public BookTitle(String title, Integer year, Author author) {</span>
+<span class="nc" id="L14">        this.title = title;</span>
+<span class="nc" id="L15">        this.year = year;</span>
+<span class="nc" id="L16">        this.author = author;</span>
+<span class="nc" id="L17">        this.newTitle = true;</span>
+<span class="nc" id="L18">        this.copies = null;</span>
+<span class="nc" id="L19">    }</span>
+
+    public void notNew() {
+<span class="nc" id="L22">        newTitle = false;</span>
+<span class="nc" id="L23">        copies = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L24">    }</span>
+
+    public void createCopy() {
+
+<span class="nc" id="L28">    }</span>
+
+    public String getTitle() {
+<span class="nc" id="L31">        return title;</span>
+    }
+
+    public Integer getYear() {
+<span class="nc" id="L35">        return year;</span>
+    }
+
+    public Author getAuthor() {
+<span class="nc" id="L39">        return author;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

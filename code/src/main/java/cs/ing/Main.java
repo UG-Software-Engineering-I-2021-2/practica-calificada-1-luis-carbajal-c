@@ -9,3 +9,5 @@ public class Main {
         logger.info("Ingenieria de Software I - Practica Calificada 1:");
     }
 }
+
+// mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar

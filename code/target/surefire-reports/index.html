@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,17 +109,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="cs.ing.ApplicationTest" class="method navigator-link" hash-for-method="TestMain">TestMain</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Command_line_suite" title="cs.ing.MainTest" class="method navigator-link" hash-for-method="TestMain">TestMain</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="cs.ing.UserTest" class="method navigator-link" hash-for-method="TestSetters">TestSetters</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Command_line_suite -->
@@ -134,21 +124,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">cs.ing.ApplicationTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TestMain">
-                  </a> <!-- TestMain -->
-                  <span class="method-name">TestMain</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -177,13 +152,6 @@
                   <span class="method-name">TestConstructor</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TestSetters">
-                  </a> <!-- TestSetters -->
-                  <span class="method-name">TestSetters</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Command_line_suite-class-passed -->
         </div> <!-- panel Command_line_suite -->
@@ -197,7 +165,6 @@
 &lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;cs.ing.ApplicationTest&quot;/&gt;
       &lt;class name=&quot;cs.ing.MainTest&quot;/&gt;
       &lt;class name=&quot;cs.ing.UserTest&quot;/&gt;
     &lt;/classes&gt;
@@ -213,7 +180,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (3 classes)</span>
+                <span class="test-name">Command line test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -239,28 +206,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'TestMain')
-data.setCell(0, 2, 'cs.ing.ApplicationTest')
-data.setCell(0, 3, 75);
+data.setCell(0, 2, 'cs.ing.MainTest')
+data.setCell(0, 3, 88);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'TestConstructor')
 data.setCell(1, 2, 'cs.ing.UserTest')
-data.setCell(1, 3, 8);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TestSetters')
-data.setCell(2, 2, 'cs.ing.UserTest')
-data.setCell(2, 3, 1);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TestMain')
-data.setCell(3, 2, 'cs.ing.MainTest')
-data.setCell(3, 3, 1);
+data.setCell(1, 3, 9);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 85 ms</span>
+              <span class="suite-total-time">Total running time: 97 ms</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -286,28 +245,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">cs.ing.ApplicationTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">cs.ing.MainTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TestMain</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">cs.ing.MainTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">TestMain</span>
-                <span class="method-start">85 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">cs.ing.UserTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TestConstructor</span>
-                <span class="method-start">88 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TestSetters</span>
-                <span class="method-start">97 ms</span>
+                <span class="method-start">99 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
